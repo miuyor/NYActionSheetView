@@ -1,10 +1,10 @@
 # NYActionSheetView
 
-<!--[![baidu]](http://baidu.com)  -->
-<!--[baidu]:http://www.baidu.com/img/bdlogo.gif "百度Logo"  -->
+<!--[![baidu]](http://baidu.com)这个是链接  -->
+<!--[baidu]:http://www.baidu.com/img/bdlogo.gif "百度Logo"这个是显示的  -->
 
 [![第一个]](https://github.com/miuyor/NYActionSheetView/raw/master/imagesFolder/3.png)
-[第一个]:http://www.baidu.com/img/bdlogo.gif
+[第一个]:https://github.com/miuyor/NYActionSheetView/raw/master/imagesFolder/3.png
 
 1.The choice of horizontal view
 -----
