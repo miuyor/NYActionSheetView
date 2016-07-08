@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vzj-Bx-S7l">
+                                <rect key="frame" x="240" y="275" width="120" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="tHp-Hw-Zmq"/>
+                                    <constraint firstAttribute="height" constant="50" id="yps-ON-2lD"/>
+                                </constraints>
+                                <state key="normal" title="生成横向选择视图"/>
+                                <connections>
+                                    <action selector="clickHorSelectBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BsE-vH-g4M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJM-bM-CqR">
+                                <rect key="frame" x="240" y="345" width="120" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="fu2-FR-SwV"/>
+                                    <constraint firstAttribute="height" constant="50" id="okS-nP-o7W"/>
+                                </constraints>
+                                <state key="normal" title="生成纵向选择视图"/>
+                                <connections>
+                                    <action selector="clickVerSelectBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="369-Sg-O95"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NJM-bM-CqR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="70" id="6AC-E2-wNp"/>
+                            <constraint firstItem="Vzj-Bx-S7l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7SF-Pg-qWq"/>
+                            <constraint firstItem="Vzj-Bx-S7l" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="W7b-Dz-Dec"/>
+                            <constraint firstItem="NJM-bM-CqR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oXA-QN-bAl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="horSelectBtn" destination="Vzj-Bx-S7l" id="ihw-rA-syM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
