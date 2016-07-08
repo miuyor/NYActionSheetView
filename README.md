@@ -1,4 +1,8 @@
 # NYActionSheetView
+
+![哈哈](https://github.com/miuyor/NYActionSheetView/raw/master/imagesFolder/0.png)
+
+
 1.The choice of horizontal view
 -----
 
